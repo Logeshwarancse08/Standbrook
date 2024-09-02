@@ -1,0 +1,81 @@
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+  }
+.navlink {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+.navlink div:hover{
+    background-color: aquamarine;
+}
+.home-section {
+    background: url("./images/Rectangle\ 7.svg"),
+      url("./images/Group\ 11\ \(1\).svg");
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+  }
+.subtitle1 {
+    font-size: 20px;
+    margin: 0;
+    font-family: "Vollkorn", serif;
+    font-optical-sizing: auto;
+  }
+.title {
+    font-size: 55px;
+    font-family: "Merienda", Regular;
+    font-optical-sizing: auto;
+  }
+.subtitle2 {
+    font-size: 50px;
+    font-family: "Vollkorn", serif;
+    font-optical-sizing: auto;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+.home-para {
+    font-size: 16px;
+    font-family: "Vollkorn", serif;
+    font-optical-sizing: auto;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 400;
+  }
+.Explore-button {
+    font-size: 18px;
+    font-family: "Vollkorn", serif;
+    font-optical-sizing: auto;
+    width: 204px;
+    height: 75px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+.Explore-button > .b1 {
+    background: linear-gradient(to right, #00aa9e, #004d47);
+    color: white;
+    top: 886px;
+    left: 858px;
+    width: 204px;
+    height: 75px;
+  }
+.bottom-image {
+    background: url("./HomeBottom/Group\ 11.png");
+    position: relative;
+    height: 25vh;
+    bottom: -100px;
+  }
+  
